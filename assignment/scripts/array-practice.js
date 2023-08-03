@@ -79,11 +79,18 @@ console.log('The animals are now', animalArray);
 
 // 4.d TODO: Remove the food at the beginning of your array & 
 //     log both the food removed and the updated array
+removedFood = favfoodsArray.shift()
+console.log('On second thought, it is a great breakfast but taking it off the list', removedFood)
+console.log('The list is now', favfoodsArray)
 
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
-
+let index = favfoodsArray.indexOf[1]
+if (index !== 1){
+    favfoodsArray[1]='chicken adobo'
+}
+console.log(favfoodsArray)
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
 
