@@ -69,7 +69,8 @@ animalArray.unshift('walrus');
 console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.c. TODO: Add a food at the beginning of the array & log the array
-
+favfoodsArray.unshift('country fried streak');
+console.log('Added my favorite breakfast to the front of the list!', favfoodsArray)
 
 // Example: Remove the first animal using Array.shift
 removedAnimal = animalArray.shift();
