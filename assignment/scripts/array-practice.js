@@ -105,3 +105,5 @@ console.log(favfoodsArray.join(" and "))
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+let newArray = favfoodsArray.concat(animalArray)
+console.log(newArray)
