@@ -93,7 +93,9 @@ if (index !== 1){
 console.log(favfoodsArray)
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
-
+favfoodsArray.sort();
+favfoodsArray.reverse();
+console.log(favfoodsArray);
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
