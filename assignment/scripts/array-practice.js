@@ -86,7 +86,7 @@ console.log('The list is now', favfoodsArray)
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
-let index = favfoodsArray.indexOf[1]
+let index = favfoodsArray.indexOf(1)
 if (index !== 1){
     favfoodsArray[1]='chicken adobo'
 }
